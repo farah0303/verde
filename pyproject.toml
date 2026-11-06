@@ -1,0 +1,20 @@
+[project]
+name = "verde-growth-model"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "farah", email = "farah.rebai@supcom.tn" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.4",
+    "pandas>=3.1.1",
+]
+
+[project.scripts]
+verde-growth-model = "verde_growth_model:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"

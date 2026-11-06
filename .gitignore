@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Production data files
+/src/data/**/*.csv
+
+# Keep the data directories in the repository
+!/src/data/.gitkeep
+!/src/data/cleaned/.gitkeep
